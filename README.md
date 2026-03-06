@@ -1,9 +1,9 @@
 # AI-agent-driven-Verilog-and-UVM-Generator
 
-This project implements an automated AI-assisted RTL design and verification workflow using n8n, Google Gemini, Google Docs, and Icarus Verilog.
+This exploration project implements an automated AI agent assisted RTL design and verification environment generation workflow using n8n, Google Gemini, Google Docs, and Icarus Verilog.
 
-The pipeline allows a user to describe a hardware design in chat, after which an AI agent:
-- Generates synthesizable Verilog-2001 RTL
+The workflow allows a user to describe the required design in chat, after which an AI agent:
+- Generates synthesizable Verilog-2001 compatible RTL, asking for design confirmation in Google Docs (delete the message generated in google doc initially and reply in chat)
 - Writes the code directly to Google Docs
 - Automatically compiles the RTL using Icarus Verilog
 - Detects and fixes compilation errors using an AI error-solver agent
