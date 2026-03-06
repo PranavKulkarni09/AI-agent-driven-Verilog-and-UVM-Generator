@@ -18,3 +18,7 @@ Tech Stack:
 - Google Docs API
 - Icarus Verilog
 - SystemVerilog / UVM
+
+
+https://github.com/user-attachments/assets/7cc9182b-51b3-4d37-aa11-1d57c96047ed
+
